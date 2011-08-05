@@ -7,10 +7,10 @@ Add a custom status (Status -> Custom) and use *%_rdio_track_artist* (or another
 
 ## Message Options:
 *Adium Status Message :: Actual Status Message Output*  
-%_rdio_track_artist :: ♫ Track Name by Artist Name  
-%_rdio_track_album_artist :: ♫ Track Name from Album Name by Artist Name  
-%_rdio_listening_track_artist :: Listening to Track Name by Artist Name  
-%_rdio_listening_track__album_artist :: Listening to Track Name from Album Name by Artist Name  
+* %_rdio_track_artist :: ♫ Track Name by Artist Name  
+* %_rdio_track_album_artist :: ♫ Track Name from Album Name by Artist Name  
+* %_rdio_listening_track_artist :: Listening to Track Name by Artist Name  
+* %_rdio_listening_track__album_artist :: Listening to Track Name from Album Name by Artist Name  
 
 ### *Notes:*
 - This script currently only works when listening to [Rdio][1] using the Mac app. Grab it [here][2].
