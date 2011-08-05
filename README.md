@@ -24,8 +24,8 @@ Changing the status output message is easy. Just follow the steps below:
 2. Right-click on "Rdio Current Track.AdiumScripts" select "Show Package Contents"
 3. Go to "Contents/Resources/"
 4. Open "Rdio.scpt" (double-click)
-5. Find the line starting with "return" and change to the desired format. (default is <em>♫ Track Name by Artist Name</em>)
-  *Example:* `return "Listening to " & track_name & " by " & artist_name & " via Rdio"`
+5. Find the line starting with "return" and change to the desired format. (default is *♫ Track Name by Artist Name*)  
+   *Example:* `return "Listening to " & track_name & " by " & artist_name & " via Rdio"`
 7. Save the AppleScript
 8. Restart Adium!
 
