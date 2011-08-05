@@ -39,6 +39,11 @@ Changing the status output message is easy. Just follow the steps below:
 *Inspired by the great Last.fm current song status applescripts [here][3], [here][4] and [here][3].*
 
 ## Changes
+### Version 0.
+* Now uses the standard Adium tune status
+* GChat status is no longer constantly updated
+* ♫ should now display properly where appropriate
+
 ### Version 0.6
 * Added additional status display options
 * Doesn't return a status message if the Rdio app is not running
