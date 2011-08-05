@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Rdio Current Track</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adiumx.rdiotrack.scripts</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>0.5</string>
+	<key>CFBundleName</key>
+	<string>Rdio</string>
+	<key>CFBundlePackageType</key>
+	<string>AdIM</string>
+	<key>Scripts</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>rdio_track_artist</string>
+			<key>Keyword</key>
+			<string>%_rdio_track_artist</string>
+			<key>Title</key>
+			<string>Rdio - ♫ Track Name by Artist Name</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>rdio_track_album_artist</string>
+			<key>Keyword</key>
+			<string>%_rdio_track_album_artist</string>
+			<key>Title</key>
+			<string>Rdio - ♫ Track Name from Album Name by Artist Name</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>rdio_listening_track_artist</string>
+			<key>Keyword</key>
+			<string>%_rdio_listening_track_artist</string>
+			<key>Title</key>
+			<string>Rdio - Listening to Track Name by Artist Name</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>rdio_listening_track_album_artist</string>
+			<key>Keyword</key>
+			<string>%_rdio_listening_track_album_artist</string>
+			<key>Title</key>
+			<string>Rdio - Listening to Track Name from Album Name by Artist Name</string>
+		</dict>
+	</array>
+	<key>Set</key>
+	<string>Rdio Current Track</string>
+</dict>
+</plist>
