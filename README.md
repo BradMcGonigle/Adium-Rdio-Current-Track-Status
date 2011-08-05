@@ -1,5 +1,5 @@
 # Description
-Display current track information from [Rdio][1] for Mac as Adium Status
+Display current track information from [Rdio][1] for Mac as Adium Status.
 
 ## How to Use
 Add a custom status (Status -> Custom) and use *%_rdio_track_artist* (or another message option below) as the status message (screenshots below).
@@ -32,9 +32,11 @@ Changing the status output message is easy. Just follow the steps below:
 ## What is Rdio?
 [Rdio][1] is an unlimited, on-demand social music service from the founders of Skype. [Rdio][1] brings music alive by letting subscribers listen to as many songs as they want, anytime, anywhere, and discover and share new music with friends.
 
-*Inspired by the great Last.fm current song status applescripts [here][3], [here][4] and [here][3].*
+## Source
+[Mercurial (BitBucket)][6]
+[GitHub][7]
 
----
+*Inspired by the great Last.fm current song status applescripts [here][3], [here][4] and [here][3].*
 
 ## Changes
 ### Version 0.6
@@ -43,7 +45,7 @@ Changing the status output message is easy. Just follow the steps below:
 * Fixed bug which auto-launched Rdio after quiting the app if Adium was still running
 
 ### Version 0.5
-* Initial release (report bugs or request features to [rdioadiumstatus@gmail.com][6])
+* Initial release (report bugs or request features to [rdioadiumstatus@gmail.com][8])
 
 
 [1]: http://www.rdio.com/ "Rdio"
@@ -51,4 +53,6 @@ Changing the status output message is easy. Just follow the steps below:
 [3]: http://www.adiumxtras.com/index.php?a=xtras&xtra_id=6507
 [4]: http://www.adiumxtras.com/index.php?a=xtras&xtra_id=5604
 [5]: http://www.adiumxtras.com/index.php?a=xtras&xtra_id=6167
-[6]: mailto:rdioadiumstatus@gmail.com
+[6]: http://bitbucket.org/bradmcgonigle/adium-rdio-current-track-status "Mercurial (BitBucket)"
+[7]: http://github.com/BradMcGonigle/Adium-Rdio-Current-Track-Status "GitHub"
+[8]: mailto:rdioadiumstatus@gmail.com "rdioadiumstatus@gmail.com"
